@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "84e254db-909e-44f1-b0a1-298cba2862a4"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -85,6 +88,10 @@
           "options": {
             "browserTarget": "demo-app:build"
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",

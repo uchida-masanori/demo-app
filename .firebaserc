@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "todo-demo-app-angular-19d8e": {
+      "hosting": {
+        "demo-app": [
+          "todo-demo-app-angular-19d8e"
+        ]
+      }
+    }
+  }
+}
